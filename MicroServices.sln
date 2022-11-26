@@ -5,19 +5,21 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1508C1B6-F3F5-4D2F-9B11-7CC36092886A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3E86AD08-751E-408F-A1BD-F75DBFEDB267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3E86AD08-751E-408F-A1BD-F75DBFEDB267}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactAPI", "ContactAPI", "{989A785F-5DC4-4D8E-8EB2-C13F1AEA0CF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReservationAPI", "ReservationAPI", "{F3BE7FF2-9605-4295-93F9-A4AC984C7A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Contact.API\Contact.API.csproj", "{CB4BF9E5-A1A8-4A2D-9EF4-A86F9DCC4447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API", "Contact.API\Contact.API.csproj", "{CB4BF9E5-A1A8-4A2D-9EF4-A86F9DCC4447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Infrastructure", "Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{CCDA6222-9966-43A0-977A-5779F26E0FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Infrastructure", "Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{CCDA6222-9966-43A0-977A-5779F26E0FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Models", "Contact.API.Models\Contact.API.Models.csproj", "{B0795799-1CC4-4216-8596-0569DC4CE5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Models", "Contact.API.Models\Contact.API.Models.csproj", "{B0795799-1CC4-4216-8596-0569DC4CE5E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Services", "Contact.API.Services\Contact.API.Services.csproj", "{BDF0D226-74E5-49A7-8648-2797B5DE2CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Services", "Contact.API.Services\Contact.API.Services.csproj", "{BDF0D226-74E5-49A7-8648-2797B5DE2CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIApp", "UIApp\UIApp.csproj", "{28C1B26C-2A8C-4FE5-9EB1-59F861F73093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BDF0D226-74E5-49A7-8648-2797B5DE2CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF0D226-74E5-49A7-8648-2797B5DE2CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF0D226-74E5-49A7-8648-2797B5DE2CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C1B26C-2A8C-4FE5-9EB1-59F861F73093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C1B26C-2A8C-4FE5-9EB1-59F861F73093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C1B26C-2A8C-4FE5-9EB1-59F861F73093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C1B26C-2A8C-4FE5-9EB1-59F861F73093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
